@@ -86,17 +86,30 @@ Generates ARIMA-based forecasts for time series data with confidence intervals.
 
 ```json
 {
-    "prediction": 0.8234,
-    "CI_from_arima": [0.7123, 0.9345],
-    "CI_from_arima_above_threshold_pct": 45.2,
-    "CI_from_normal_distribution": [0.7089, 0.9379],
-    "CI_from_normal_distribution_above_threshold_pct": 47.8,
-    "CI_from_t_distribution": [0.7045, 0.9423],
-    "CI_from_t_distribution_above_threshold_pct": 52.1,
-    "best_order": [2, 1, 1],
-    "MSE": 0.0145,
-    "RMSE": 0.1204,
-    "MAE": 0.0987
+    "prediction": 0.8429657738146251,
+    "CI_from_arima": [
+        0.5227539859222485,
+        1.1631775617070017
+    ],
+    "CI_from_arima_above_threshold_pct": 41.09429628422297,
+    "CI_from_normal_distribution": [
+        0.5659258649366603,
+        1.12000568269259
+    ],
+    "CI_from_normal_distribution_above_threshold_pct": 39.706496364302104,
+    "CI_from_t_distribution": [
+        0.7438745677895089,
+        0.9420569798397413
+    ],
+    "CI_from_t_distribution_above_threshold_pct": 39.706496364302104,
+    "best_order": [
+        1,
+        0,
+        1
+    ],
+    "MSE": 0.025422259168358323,
+    "RMSE": 0.1594435924343099,
+    "MAE": 0.11979553755075785
 }
 ```
 
