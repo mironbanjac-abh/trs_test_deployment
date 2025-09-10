@@ -1,0 +1,11 @@
+fastapi
+pydantic
+statsmodels
+numpy<2.0
+pandas
+pmdarima
+scikit-learn
+scipy
+urllib3
+uvicorn
+requests
