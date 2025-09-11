@@ -1,6 +1,6 @@
 # ARIMA Time Series Forecasting API
 
-This deployment provides a REST API for time series forecasting using ARIMA (AutoRegressive Integrated Moving Average) models. The API is designed to predict the next score in a sequence of student performance scores and provides multiple confidence interval calculations.
+This deployment provides a REST API for time series forecasting using ARIMA (AutoRegressive Integrated Moving Average) models. The API is designed to predict the next score in a sequence of student performance scores on the exam simulations and provides multiple confidence interval calculations.
 
 ## 📋 Table of Contents
 
@@ -22,9 +22,6 @@ This deployment provides a REST API for time series forecasting using ARIMA (Aut
 ### Local Installation
 
 1. **Clone or navigate to the deployment directory:**
-   ```bash
-   cd deployment
-   ```
 
 2. **Install dependencies:**
    ```bash
