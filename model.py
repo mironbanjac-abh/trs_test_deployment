@@ -93,7 +93,7 @@ def arima(df: pd.DataFrame, WINDOW_SIZE = 5, CI_method = 't_distribution'):
                 "probability_of_passing_final_exam": CI_above_threshold_pct,
                 "predicted_simulation_score": predicted_value,
                 "arima_best_order": best_order,
-                "CI_from_arima": CI
+                "confidence_interval_range": CI
             }
             return result
             
