@@ -4,7 +4,7 @@ import requests
 payload = {
     "scores": [0.9, 0.88, 0.75, 0.78, 0.74, 0.69],
     "window_size": 5,
-    "CI_method": "t_distribution"
+    "ci_method": "t_distribution"
 }
 
 response = requests.post("http://127.0.0.1:8000/forecast", json=payload)
