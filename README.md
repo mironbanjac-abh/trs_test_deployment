@@ -19,7 +19,7 @@ This deployment provides a REST API for predicting the probability of passing a 
 ## 🚀 Installation
 
 ### Prerequisites
-- Python 3.9+
+- Python 3.11+
 - pip package manager
 
 ### Local Installation
