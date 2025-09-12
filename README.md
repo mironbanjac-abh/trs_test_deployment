@@ -8,7 +8,7 @@ This deployment provides a REST API for predicting the probability of passing a 
 - [Quick Start](#-quick-start)
 - [API Documentation](#-api-documentation)
 - [Output Metrics Explained](#-output-metrics-explained)
-- [Confidence Intervals](#-confidence-intervals)
+- [Confidence Interval Methods](#-confidence-interval-methods)
 - [Docker Deployment](#-docker-deployment)
 - [Testing](#-testing)
 - [Error Handling](#-error-handling)
